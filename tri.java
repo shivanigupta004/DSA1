@@ -25,7 +25,7 @@ public class tri {
                  System.out.print(e%2);
              }System.out.println();
          }
+
+         
 }
-
-
 }
