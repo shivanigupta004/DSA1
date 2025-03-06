@@ -8,6 +8,6 @@ public class tri {
                     k=1;
                 }
                 }System.out.print("\n");
-            }
-    
+            }   
+}
 }
