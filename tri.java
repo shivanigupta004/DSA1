@@ -9,7 +9,7 @@ public class tri {
                 }
                 }System.out.print("\n");
             } 
-            
+
             for(int i=1;i<=5;i++){
                 for(int j=1;j<=7;j++){
                      if(i==2||i==4||i+j==5||j-i==3||i-j==1){
@@ -19,5 +19,13 @@ public class tri {
                      }
                 }System.out.println();
         }  
+
+        for(int d=1;d<=5;d++){
+            for(int e=5;e>=d;e--){ 
+                 System.out.print(e%2);
+             }System.out.println();
+         }
 }
+
+
 }
