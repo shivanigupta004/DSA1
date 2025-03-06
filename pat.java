@@ -12,7 +12,17 @@ public class pat {
             System.out.println();
         }
 
-           
+        int row = 5;
+        
+        for (int i1 = 1; i1 <= row; i1++) {
+            for (int j1 = row - i1; j1 > 0; j1--) {
+                System.out.print(" ");
+            }
+            for (int k1 = 1; k1 <= 2* i1 - 1; k1++) {
+                System.out.print(i1);
+            }
+            System.out.println();
+        } 
     }  
     
 }
