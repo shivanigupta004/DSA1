@@ -11,6 +11,9 @@ public class linearsearch {
         int nums[]={2,4,6,8,10,12,14,16,18,20};
         int key=10;
         int in=linSearch(nums,key);
+        if(in==-1){
+            System.out.println("Key is not found." );
+        }
         System.out.println("Key is found at index "+in);
 
     }
