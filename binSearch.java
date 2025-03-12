@@ -9,10 +9,10 @@ public class binSearch {
             return mid;
         }if(arr[mid]<key){   //right
             start=mid+1;
-       }else{               //left
-        end=mid-1;
-       }
-    } return -1;
+        }else{               //left
+             end=mid-1;
+        }
+       } return -1;
     }
     public static void main(String[]args){
      int arr[]={2,4,6,8,10,12,14};
