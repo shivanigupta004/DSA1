@@ -13,9 +13,9 @@ public class linearsearch {
         int in=linSearch(nums,key);
         if(in==-1){
             System.out.println("Key is not found." );
-        }
+        }else{
         System.out.println("Key is found at index "+in);
-
+        }
     }
     
 }
