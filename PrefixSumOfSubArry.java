@@ -29,6 +29,7 @@ public class PrefixSumOfSubArry {
         System.out.println("max sum of subarrays is "+maxsum);
         System.out.println("min sum of subarrays is "+minsum);
     }
+    
     public static void main(String args[]){
         int arr[]={1,-2,6,-1,3};
         subArray(arr);
