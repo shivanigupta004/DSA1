@@ -1,7 +1,7 @@
 public class SortedMatrix {
     public static void SearchInSortedMatrix(int matrix[][],int key) {
         int row = 0, col = matrix[0].length-1;
-        //Also known as staircase search
+        //Also known as staircase search   O(n+m)
         while(row<matrix.length && col>=0){
             if(matrix[row][col] == key){
                 System.out.println("Found  key at ("+row+","+col+") in the matrix .");  
