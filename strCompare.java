@@ -1,7 +1,5 @@
 public class strCompare {
-    public static void comparision(String str){
 
-    }
     public static void main(String[] args) {
         String s1 = "sonu";
         String s2 = "sonu";
