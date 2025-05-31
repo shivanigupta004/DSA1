@@ -2,7 +2,6 @@ public class palindrome {
     public static void palindronee(int a) {
         int b = a;
         int rev = 0;
-    
         while (a > 0) {
             rev = rev * 10 + a % 10 ;
             a /= 10;
