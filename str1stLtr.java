@@ -17,7 +17,7 @@ public class str1stLtr {
     }
     public static void main(String[] args) {
         String str = "hi, i am shivani.";
-        System.out.println(str.length());
+        System.out.println("Length of string is : "+str.length());
         System.out.println(toUpperCase(str));
     }
 }
