@@ -1,4 +1,4 @@
-public class bitM {
+public class bitMa {
     public static int setIthBit(int n,int i) {
         int bitmask = (1<<i);       //10 =1010
         n |= bitmask ;         //bitmask =0100
