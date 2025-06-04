@@ -28,5 +28,9 @@ public class bit4 {
         System.out.println(isPowerOfTwo(16));
         System.out.println(countSetBits(15));
         System.out.println(fastExponential(5, 3));
+
+          int x = 6 ;
+        System.out.println(-~x);
+    }
     }
 }
