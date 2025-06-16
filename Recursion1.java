@@ -107,7 +107,6 @@ public class Recursion1 {
         }
         return halfPowersq;
     }
-    
     public static void main(String[] args) {
        // printDec(11 );
        //printInc(10);
@@ -130,6 +129,7 @@ public class Recursion1 {
        // System.out.println(power(2, 10));
        
        System.out.println(optimizedPower(2, 0));
-
     }
 }
+
+
