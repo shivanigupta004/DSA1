@@ -55,15 +55,28 @@ public class Recursion2 {
     }
 
 
+    public static void printBinStrings(int n, int lastPlace, String str){
+       if(n == 0){
+        System.out.println(str);
+        return;
+       }
+        printBinStrings(n-1, 0, str+"0");
+        if(lastPlace == 0){
+        
+            printBinStrings(n-1, 1, str+"1");
+        }
 
+    }
     public static void main(String[] args) {
         //System.out.println(tilingProblem(4));
 
-      /*   String str = "appnnacollege";
+       /* String str = "appnnacollege";
         removeDuplicates(str, 0, new StringBuilder(""), new boolean[26]);  */
 
-        int r = friendsPairing(3);
-        System.out.println(r);
+       /*  int r = friendsPairing(3);
+        System.out.println(r); */
+
+        printBinStrings(3, 0,"");
     }
 }
 
