@@ -18,3 +18,32 @@ This Java program checks whether an array contains **at least one duplicate** nu
 2. A loop checks adjacent elements for equality.
 3. If a duplicate is found, the method returns `true`; otherwise, `false`.
 
+# 🔄 Array Left Rotation in Java
+
+This project demonstrates two efficient methods to perform **left rotation** on an array in Java. Whether you're optimizing for space or speed, both approaches are clean, readable, and ready for action.
+
+---
+
+## ✨ Approaches Implemented
+
+### 1️⃣ Temporary Array Method
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(k)
+- **Logic:**  
+  - Store first `k` elements in a temporary array  
+  - Shift remaining elements to the left  
+  - Append the stored elements to the end
+
+### 2️⃣ Reversal Algorithm
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
+- **Logic:**  
+  - Reverse the entire array
+  - Reverse the first `length-k` elements  
+  - Reverse the last `k` elements  
+
+---
+## 📌 Sample Input
+```java
+int[] arr = {1, 2, 3, 4, 5, 6, 7};
+int k = 3;
