@@ -47,3 +47,20 @@ This project demonstrates two efficient methods to perform **left rotation** on 
 ```java
 int[] arr = {1, 2, 3, 4, 5, 6, 7};
 int k = 3;
+### 📌 Sample Output
+-1
+5 6 7 1 2 3 4
+
+## 🔄 Rotate and Search in Array
+
+This Java program rotates an array to the left by `k` positions and performs a binary search for a target element.
+
+### 💡 Features
+- In-place array rotation using reversal
+- Efficient binary search
+- Time Complexity: O(n) for rotation, O(log n) for search
+- Space Complexity: O(1)
+
+### 📌 Sample Output
+-1
+5 6 7 1 2 3 4
