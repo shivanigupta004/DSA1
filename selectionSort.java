@@ -17,6 +17,22 @@ public class selectionSort {
             }
         }
     }
+    
+ public static void selectionsortingInDescending(int[] arr) {
+    for (int i = 0; i < arr.length - 1; i++) {
+        int maxPosition = i;
+
+        for (int j = i + 1; j < arr.length; j++) {
+            if (arr[maxPosition] < arr[j]) {
+                maxPosition = j;
+            }
+        }
+        // Swap after finding the maxPosition
+        int temp = arr[maxPosition];
+        arr[maxPosition] = arr[i];
+        arr[i] = temp;
+    }
+}
 
     public static void printArr(int[] arr) {
         for (int ele : arr) {
@@ -26,10 +42,10 @@ public class selectionSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = {5, 4, 3, 2, 1}; 
+        int arr[] = {4, 2, 3, 5, 1}; 
         System.out.print("Before Sorting arr : ");
         printArr(arr);
-        selectionsorting(arr);
+        selectionsortingInDescending(arr);
         System.out.print("After  Sorting arr : ");
         printArr(arr);
     }
