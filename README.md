@@ -65,6 +65,9 @@ This Java program rotates an array to the left by `k` positions and performs a b
 -1
 5 6 7 1 2 3 4
 
+🧮 Sorting Algorithms in Java
+This project demonstrates two classic sorting techniques—Bubble Sort and Selection Sort—implemented in both ascending and descending order.
+
 🔁 Bubble Sort (Ascending)
 Method: bubblesorting(int[] arr)
 Logic: Repeatedly compares adjacent elements and swaps them if they’re in the wrong order.
@@ -93,6 +96,9 @@ Example:
 Input: [4, 2, 5, 1, 3]
 Output: [5, 4, 3, 2, 1]
 
+🧮 Insertion Sort in Java
+This module demonstrates the Insertion Sort algorithm in both ascending and descending order.
+
 🔼 Insertion Sort (Ascending)
 Method: insertionSorting(int[] arr)
 Logic: Iteratively inserts each element into its correct position by shifting larger elements to the right.
@@ -106,6 +112,29 @@ Logic: Iteratively inserts each element into its correct position by shifting sm
 Example:
 Input: [9, 6, 3, 8, 4, 2, 1]
 Output: [9, 8, 6, 4, 3, 2, 1]
+
+🧮 Counting Sort in Java
+This module demonstrates the Counting Sort algorithm in both ascending and descending order. Counting Sort is efficient for sorting integers within a known range and works by counting the frequency of each element.
+
+🔼 Counting Sort (Ascending)
+Method: countingSort(int[] arr)
+Logic:
+- Count the frequency of each element.
+- Reconstruct the array from the count array in increasing order.
+Example:
+Input: [1, 1, 2, 2, 2, 3, 3, 3, 5, 5, 3, 4, 5, 1]
+Output: [1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 5, 5, 5]
+
+🔽 Counting Sort (Descending)
+Method: countingSortInDesc(int[] arr)
+Logic:
+- Count the frequency of each element.
+- Reconstruct the array from the count array in decreasing order.
+Example:
+Input: [1, 1, 2, 2, 2, 3, 3, 3, 5, 5, 3, 4, 5, 1]
+Output: [5, 5, 5, 4, 3, 3, 3, 3, 2, 2, 2, 1, 1, 1]
+
+
 
 
 
