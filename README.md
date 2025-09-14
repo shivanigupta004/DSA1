@@ -93,4 +93,19 @@ Example:
 Input: [4, 2, 5, 1, 3]
 Output: [5, 4, 3, 2, 1]
 
+🔼 Insertion Sort (Ascending)
+Method: insertionSorting(int[] arr)
+Logic: Iteratively inserts each element into its correct position by shifting larger elements to the right.
+Example:
+Input: [9, 6, 3, 8, 4, 2, 1]
+Output: [1, 2, 3, 4, 6, 8, 9]
+
+🔽 Insertion Sort (Descending)
+Method: insertionSortingInDesc(int[] arr)
+Logic: Iteratively inserts each element into its correct position by shifting smaller elements to the right.
+Example:
+Input: [9, 6, 3, 8, 4, 2, 1]
+Output: [9, 8, 6, 4, 3, 2, 1]
+
+
 
