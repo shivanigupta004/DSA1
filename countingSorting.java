@@ -25,6 +25,33 @@ public class countingSorting {
             }
         }
     }
+
+    public static void countingSortInDesc(int arr[])
+    {
+        int largest = Integer.MIN_VALUE;
+        for(int i=0;i<arr.length;i++)
+        {
+            largest = Math.max(largest,arr[i]);
+        }
+
+        int count[] =  new int[largest+1];
+        for(int i=0;i<arr.length;i++)
+        {
+            count[arr[i]]++;
+        }
+        
+        //sorting
+        int j = 0;
+        for(int i=count.length-1;i>=0;i--)
+        {
+            while(count[i]>0){
+                arr[j] = i;
+                j++;
+                count[i]--;
+            }
+        }
+    }
+
      public static void printArr(int[] arr) {
         for (int ele : arr) {
             System.out.print(ele + " ");
@@ -34,7 +61,7 @@ public class countingSorting {
         int arr[] = {1,1,2,2,2,3,3,3,5,5,3,4,5,1};
         System.out.print("Before Sorting arr : ");
         printArr(arr);
-        countingSort(arr);
+        countingSortInDesc(arr);
         System.out.print("After  Sorting arr : ");
         printArr(arr);
     
